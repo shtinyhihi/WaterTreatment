@@ -1,5 +1,5 @@
 <?php
-//werwsdfádadasffsdđahdfgd
+//werwsdfádadasffsdđahdfgdsdf
 namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
