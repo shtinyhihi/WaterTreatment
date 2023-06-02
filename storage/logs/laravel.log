@@ -1,0 +1,298 @@
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14F1.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14F1.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14E1.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14E1.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14B2.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14B2.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14E2.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14E2.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14D2.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14D2.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14F0.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14F0.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14D1.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14D1.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:54] local.ERROR: rename(C:\xampp\htdocs\WaterTreatment\bootstrap\cache\pac14B3.tmp,C:\xampp\htdocs\WaterTreatment\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\pac14B3.tmp,C:\\xampp\\htdocs\\WaterTreatment\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 234)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-05-17 04:38:55] local.ERROR: Uncaught ReflectionException: Class "blade.compiler" does not exist in C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php:914
+Stack trace:
+#0 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(914): ReflectionClass->__construct('blade.compiler')
+#1 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('blade.compiler')
+#2 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#3 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#4 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#5 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#6 Command line code(1): app('Illuminate\\View...')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [blade.compiler] does not exist. in C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php:916
+Stack trace:
+#0 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('blade.compiler')
+#1 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#2 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#3 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#4 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#5 Command line code(1): app('Illuminate\\View...')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"blade.compiler\" does not exist in C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914
+Stack trace:
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(914): ReflectionClass->__construct('blade.compiler')
+#1 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('blade.compiler')
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#6 Command line code(1): app('Illuminate\\\\View...')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [blade.compiler] does not exist. in C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916
+Stack trace:
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('blade.compiler')
+#1 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#5 Command line code(1): app('Illuminate\\\\View...')
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916)
+[stacktrace]
+#0 {main}
+"} 
+[2023-05-17 04:38:55] local.ERROR: Uncaught ReflectionException: Class "translator" does not exist in C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php:914
+Stack trace:
+#0 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(914): ReflectionClass->__construct('translator')
+#1 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('translator')
+#2 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('translator', Array)
+#5 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php:916
+Stack trace:
+#0 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('translator')
+#1 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('translator', Array, true)
+#2 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('translator', Array)
+#3 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('translator', Array)
+#4 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"translator\" does not exist in C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914
+Stack trace:
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(914): ReflectionClass->__construct('translator')
+#1 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('translator')
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('translator', Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [translator] does not exist. in C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916
+Stack trace:
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('translator')
+#1 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('translator', Array)
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916)
+[stacktrace]
+#0 {main}
+"} 
+[2023-05-17 04:38:55] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php:914
+Stack trace:
+#0 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(914): ReflectionClass->__construct('view')
+#1 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('view')
+#2 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('view', Array)
+#5 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php:916
+Stack trace:
+#0 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('view')
+#1 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('view', Array)
+#4 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914
+Stack trace:
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(914): ReflectionClass->__construct('view')
+#1 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('view')
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916
+Stack trace:
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('view')
+#1 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916)
+[stacktrace]
+#0 {main}
+"} 
+[2023-05-17 04:38:55] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Auth\Access\Gate] is not instantiable. in C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php:1128
+Stack trace:
+#0 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(923): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#3 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#4 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#5 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Container\Container.php(1456): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#6 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(236): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#7 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance('Illuminate\\Cont...')
+#8 C:\xampp\htdocs\WaterTreatment\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#10 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Auth\\Access\\Gate] is not instantiable. in C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1128
+Stack trace:
+#0 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(923): Illuminate\\Container\\Container->notInstantiable('Illuminate\\\\Cont...')
+#1 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('Illuminate\\\\Cont...')
+#2 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('Illuminate\\\\Cont...', Array, true)
+#3 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Cont...', Array)
+#4 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('Illuminate\\\\Cont...', Array)
+#5 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1456): Illuminate\\Foundation\\Application->make('Illuminate\\\\Cont...')
+#6 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(236): Illuminate\\Container\\Container->offsetGet('Illuminate\\\\Cont...')
+#7 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(207): Illuminate\\Support\\Facades\\Facade::resolveFacadeInstance('Illuminate\\\\Cont...')
+#8 C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(347): Illuminate\\Support\\Facades\\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\\Support\\Facades\\Facade::__callStatic('abilities', Array)
+#10 {main}
+  thrown at C:\\xampp\\htdocs\\WaterTreatment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1128)
+[stacktrace]
+#0 {main}
+"} 
